@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<htnl>
+    <head>
+        <title>Enroll</title>
+        <style>
+            body{
+                background-color:rgb(203, 252, 255); 
+            }
+            .p{
+                background-color:rgb(15, 38, 141, 0.753) ;
+                color: white;
+            }
+            .q{
+                background-color:  rgb(11, 40, 168) ;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="font-style: oblique;" align="center">Select Course</h1> 
+
+        <form action="enroll.php" method="post">
+
+            <table align="center" border="4" style="border-color: black;">
+                <tr class="q">
+                    <td colspan="2">Enter Gmail</td>
+                    <td colspan="2" ><input type="text" name="gmail"></td>
+                </tr>
+                <tr style="background-color: rgb(2, 19, 94);color: white;">
+                    <td>Course Name</td>
+                    <td>Course Duration</td>
+                    <td>Course Fees</td>
+                    <td>Select</td>
+                </tr>
+                <tr class="p">
+                    <td>Classical Music</td>
+                    <td>30Hr</td>
+                    <td>5000rs</td>
+                    <td><input type="radio" name="course_name" value="101"></td>
+                </tr>
+                <tr class="p">
+                    <td>Bollywood Music</td>
+                    <td>20Hr</td>
+                    <td>5000rs</td>
+                    <td><input type="radio" name="course_name" value="102"></td>
+                </tr>
+                <tr class="p">
+                    <td>Western Music</td>
+                    <td>25Hr</td>
+                    <td>6000rs</td>
+                    <td><input type="radio" name="course_name" value="103"></td>
+                </tr>
+                <tr class="q">
+                    <td>Guitar</td>
+                    <td>46Hr</td>
+                    <td>10000rs</td>
+                    <td><input type="radio" name="course_name" value="201"></td>
+                </tr>
+                <tr class="q">
+                    <td>Flute</td>
+                    <td>30Hr</td>
+                    <td>6000rs</td>
+                    <td><input type="radio" name="course_name" value="202"></td>
+                </tr>
+                <tr class="q">
+                    <td>Piano</td>
+                    <td>20Hr</td>
+                    <td>6500rs</td>
+                    <td><input type="radio" name="course_name" value="203"></td>
+                </tr>
+                <tr class="p" >
+                    <td>Bharatnatyam</td>
+                    <td>34Hr</td>
+                    <td>4500rs</td>
+                    <td><input type="radio" name="course_name" value="301"></td>
+                </tr>
+                <tr class="p" >
+                    <td>kattak</td>
+                    <td>46Hr</td>
+                    <td>6500rs</td>
+                    <td><input type="radio" name="course_name" value="302"></td>
+                </tr>
+                <tr class="p">
+                    <td>Bollywood Dance</td>
+                    <td>14Hr</td>
+                    <td>3000rs</td>
+                    <td><input type="radio" name="course_name" value="303"></td>
+                </tr>
+                <tr class="q">
+                    <td>Painting</td>
+                    <td>15Hr</td>
+                    <td>7600rs</td>
+                    <td><input type="radio" name="course_name" value="401"></td>
+                </tr>
+                <tr class="q">
+                    <td>Pencil Shading</td>
+                    <td>33Hr</td>
+                    <td>5000rs</td>
+                    <td><input type="radio" name="course_name" value="402"></td>
+                </tr>
+                <tr class="q">
+                    <td>Photography</td>
+                    <td>15Hr</td>
+                    <td>10500rs</td>
+                    <td><input type="radio" name="course_name" value="403"></td>
+                </tr>
+                <tr class="p">
+                    <td>English</td>
+                    <td>20Hr</td>
+                    <td>6000rs</td>
+                    <td><input type="radio" name="course_name" value="501"></td>
+                </tr>
+                <tr class="p">
+                    <td>German</td>
+                    <td>40Hr</td>
+                    <td>12500rs</td>
+                    <td><input type="radio" name="course_name" value="502"></td>
+                </tr>
+                <tr class="p">
+                    <td>Japanese</td>
+                    <td>60Hr</td>
+                    <td>15000rs</td>
+                    <td><input type="radio" name="course_name" value="503"></td>
+                </tr>
+                <tr class="q">
+                    <td colspan="2">Enter Start Date</td>
+                    <td colspan="2"><input type="date" name="st_date"></td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(2, 19, 94);color: white;" colspan="4" align="center"><input type="submit" name="enroll" style="background-color:rgb(121, 205, 209);" value="enroll"></td>
+                </tr>
+
+            </table>
+
+        </form>
+    </body>
+</htnl>

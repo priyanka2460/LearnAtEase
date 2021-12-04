@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body{
+                background-color: rgb(203, 252, 255);
+                font-size: 0pt;
+                font: initial;
+            }
+                
+        </style>
+    </head>
+    <body>
+        <br><br>
+        <div >
+            <form action="register.php" method="post" >
+                <table class="reg_table" width="400" height="500" align="center" border="1">
+                   
+                    <tr>
+                        <h2 class="heading0"><td colspan="2" id="tablehead" align="left">Sign-up<br>Welcome!</td></h2>
+                    </tr>
+                   
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="username" required></td>
+                    </tr>  
+                    <tr>
+                        <td>Gmail</td>
+                        <td><input type="text" name="gmail" required></td>
+                    </tr> 
+                    <tr>
+                        <td>Enter Phone Number</td>
+                        <td><input type="mobile" placeholder="+91" name="phone" required></td>
+                    </tr>  
+                    <tr>
+                        <td>Enter birth Date</td>
+                        <td><input type="date" name="dob" required></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td><input type="radio" name="gender" value="m">Male&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="f" >Female&nbsp;&nbsp;
+                            <input type="radio" name="gender" value="o">Others</td>
+                    </tr>  
+                    <tr>
+                        <td>Create Password</td>
+                        <td><input type="password" placeholder="at least 6 charcters" name="password" required> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="submit" value="submit" name="reg_submit"></td>
+                    </tr>
+                </table>
+            </form>
+           
+            
+        </div>
+    </body>
+</html>
