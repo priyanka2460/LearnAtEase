@@ -1,0 +1,38 @@
+.heading{
+    margin-top: 130px;
+    font-size:50px;
+    text-align: center;
+}
+.heading0{
+    
+    text-align: center;
+    margin-top: 0%;
+   
+}
+.reg_table{
+    background-color: rgb(2, 19, 94);
+    color: white;
+} 
+.heading1{
+    font-style: oblique;
+    background-color:rgb(213, 252, 248);
+    font-size: 40px;
+}
+.heading2{
+    font-style: oblique;
+    background-color:rgb(213, 252, 248);
+    font-size: 30px;
+}
+.courses{
+    background-color: rgb(2, 19, 94);
+    color:white;
+}
+.enroll{
+    align-content: center;
+    position: absolute;
+    left: 45%;
+    margin-top: 20px;
+    transform: translate(50%, 50%);
+    background-color: rgb(253, 69, 177);
+    color: white;
+}
